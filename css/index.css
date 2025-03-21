@@ -1,0 +1,93 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+body{
+    margin: auto;
+    min-width: 1000px;
+    width: 1000px;
+    height: 100%;
+}
+.full_screen{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* ----------------------------------------------------------------
+                    HEADER
+---------------------------------------------------------------- */
+header{
+    background: rgb(30, 30, 30);
+}
+/* ----------------------------------------------------------------
+                    NAV 
+---------------------------------------------------------------- */
+nav{
+    border-left: 0.125rem solid rgb(136, 55, 55);
+    border-right: 0.125rem solid rgb(136, 55, 55);
+}
+nav ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li{
+    list-style: none;
+    flex: 1;
+    border-left: 0.125rem solid rgb(136, 55, 55);
+    border-right: 0.125rem solid rgb(136, 55, 55);
+    border-top: 0.25rem solid rgb(136, 55, 55);
+    border-bottom: 0.25rem solid rgb(136, 55, 55);
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(rgb(90, 90, 90),rgb(27, 27, 27),rgb(90, 90, 90));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: linear-gradient(rgb(27, 27, 27),rgb(90, 90, 90),rgb(27, 27, 27));
+}
+/* ----------------------------------------------------------------
+                    MAIN
+---------------------------------------------------------------- */
+main{
+    background: rgb(30, 30, 30);
+    flex: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 0.25rem solid rgb(136, 55, 55);
+    color: #fff;
+}
+/* ----------------------------------------------------------------
+                    FOOTER
+---------------------------------------------------------------- */
+footer{
+    background: rgb(30, 30, 30);
+    height: 3rem;
+    border: 0.25rem solid rgb(136, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+/* ----------------------------------------------------------------
+                    JS
+---------------------------------------------------------------- */
+.showbox {
+    display: none;
+}
+.modaal-outer-wrapper .modaal-container{
+    background-color: transparent;
+}
+.modaal-content-container{
+    /* background-color: transparent; */
+    background: rgba(102, 51, 153, 0);
+    padding: 0;
+    text-align: center;
+}
